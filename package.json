@@ -1,0 +1,23 @@
+{
+  "name": "node-v1",
+  "description": "Node.js API wrapper for Version 1 (http://www.versionone.com)",
+  "homepage": "https://github.com/racker/node-v1",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:racker/node-v1.git"
+  },
+  "scripts": {
+    "test": "whiskey --tests \"tests/http.js\""
+  },
+  "dependencies": {
+    "async": "0.1.12",
+    "elementtree": "0.1.1",
+    "sprintf": "0.1.1",
+    "whiskey": "0.6.3"
+  },
+  "licenses": [
+    { "type": "Apache",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html" }
+  ]
+}
