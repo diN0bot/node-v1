@@ -54,6 +54,7 @@ exports['test_many_asset_parsing'] = function(test, assert) {
   var asset = Asset.fromXml(xml);
   assert.strictEqual(2, asset.length); // because it's a list.
   asset = asset[0]; 
+  console.log(asset);
   
   assert.strictEqual('/ORG/rest-1.v1/Data/Defect/11111', asset.href);
   assert.strictEqual('Defect:11111', asset.id);
