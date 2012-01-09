@@ -18,5 +18,9 @@
   "licenses": [
     { "type": "Apache",
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html" }
-  ]
+  ],
+  "main": "index",
+  "directories": {
+    "lib": "lib"
+  }
 }
